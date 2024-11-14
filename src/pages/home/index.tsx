@@ -93,7 +93,7 @@ export function Home() {
          <form className={styles.form} onSubmit={handleSubmit}>
             <input
             type='text'
-            placeholder='Digite o nome da moeda ... Ex Bitcoin'
+            placeholder='Digite o nome da moeda ... Ex: bitcoin'
             onChange={(e) => setInput(e.target.value)}>
             </input>
             <button type='submit'>
